@@ -24,12 +24,6 @@ npm run start
 This will create a network of 2 nodes connected to each other and their respective UIs.
 It will also bring up the Holochain Playground for advanced introspection of the conductors.
 
-## Running the backend tests
-
-```bash
-npm run test
-```
-
 ## Bootstrapping a network
 
 Create a custom network of nodes connected to each other and their respective UIs with:
