@@ -1,0 +1,13 @@
+[package]
+name = "profiles_integrity_zome"
+version.workspace = true
+rust-version.workspace = true
+edition.workspace = true
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+
+[dependencies]
+hc_zome_profiles_integrity.workspace = true
+hdi.workspace = true

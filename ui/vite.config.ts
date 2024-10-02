@@ -18,9 +18,6 @@ export default defineConfig({
   plugins: [
     checker({
       typescript: true,
-      eslint: {
-        lintCommand: "eslint --ext .ts,.html . --ignore-path .gitignore",
-      },
     }),
   ],
 });

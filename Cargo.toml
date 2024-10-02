@@ -23,14 +23,19 @@ hdi = "=0.4.2"
 hdk = "=0.3.2"
 serde = "1.0"
 
-zome_utils = { git = "https://github.com/ddd-mtl/zome-utils", branch = "hdk-4.0-dev.20" }
-zome_signals = { git = "https://github.com/ddd-mtl/zome-signals", branch = "hdk-4.0-dev.20" }
-time_indexing = { git = "https://github.com/ddd-mtl/time-indexing", branch = "hdk-4.0-dev.20" }
-path_explorer_types = { git = "https://github.com/lightningrodlabs/path-explorer", package = "path_explorer_types", branch = "hdk-4.0-dev.20" }
-path_explorer = { git = "https://github.com/lightningrodlabs/path-explorer", package = "path_explorer", branch = "hdk-4.0-dev.20" }
+zome_utils = { git = "https://github.com/ddd-mtl/zome-utils", branch = "hdk-3.2" }
+zome_signals = { git = "https://github.com/ddd-mtl/zome-signals", branch = "hdk-3.2" }
+time_indexing = { git = "https://github.com/ddd-mtl/time-indexing", branch = "hdk-3.1" }
+path_explorer_types = { git = "https://github.com/lightningrodlabs/path-explorer", package = "path_explorer_types", branch = "hdk-3.1" }
+path_explorer = { git = "https://github.com/lightningrodlabs/path-explorer", package = "path_explorer", branch = "hdk-3.1" }
 
+# Zomes
 threads = {path = "dnas/threads/zomes/coordinator/threads"}
 threads_integrity = {path = "dnas/threads/zomes/integrity/threads"}
+
+hc_zome_profiles_integrity = {git = "https://github.com/ddd-mtl/profiles_alt_zome", branch = "hdk-3.2" }
+profiles_alt_coordinator = {git = "https://github.com/ddd-mtl/profiles_alt_zome", branch = "hdk-3.2" }
+
 
 [profile.dev]
 opt-level = "z"

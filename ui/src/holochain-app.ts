@@ -1,5 +1,5 @@
 import { ActionHash, AppClient, AppWebsocket } from "@holochain/client";
-import { provide } from "@lit-labs/context";
+import { provide } from "@lit/context";
 import { css, html, LitElement } from "lit";
 import { customElement, property, state } from "lit/decorators.js";
 import "@material/mwc-circular-progress";
