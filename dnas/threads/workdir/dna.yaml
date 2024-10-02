@@ -1,0 +1,21 @@
+---
+manifest_version: "1"
+name: threads
+integrity:
+  network_seed: ~
+  properties: ~
+  origin_time: 1727880546997264
+  zomes:
+    - name: threads_integrity
+      hash: ~
+      bundled: "../../../target/wasm32-unknown-unknown/release/threads_integrity.wasm"
+      dependencies: ~
+      dylib: ~
+coordinator:
+  zomes:
+    - name: threads
+      hash: ~
+      bundled: "../../../target/wasm32-unknown-unknown/release/threads.wasm"
+      dependencies:
+        - name: threads_integrity
+      dylib: ~
